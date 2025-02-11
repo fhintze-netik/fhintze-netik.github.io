@@ -476,6 +476,10 @@ text-align: left;
   {
     display: block;
   }
+  #menu-icon:hover
+  {
+    cursor: pointer;
+  }
   .navbar
   {
     position: absolute;
