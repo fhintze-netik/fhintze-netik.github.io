@@ -17,3 +17,14 @@ form.addEventListener("submit", (e) => {
     .catch((error) => console.error("Error!", error.message));
   document.getElementById("contact-form").reset();
 });
+
+function changeText(button, text, textToChangeBackTo) {
+  buttonId = document.getElementById(button);
+  buttonId.textContent = text;
+  setTimeout(function () {
+    back(buttonId, textToChangeBackTo);
+  }, 5000);
+  function back(button, textToChangeBackTo) {
+    button.textContent = textToChangeBackTo;
+  }
+}
