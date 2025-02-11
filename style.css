@@ -266,6 +266,7 @@ text-align: left;
 ::-webkit-scrollbar-thumb
 {
   background-color: var(--main-color);
+  border-radius: 3rem;
 }
 ::-webkit-scrollbar-track
 {
