@@ -248,7 +248,7 @@ text-align: left;
 }
 .about-content p
 {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 .about-content .btn
 {
@@ -275,7 +275,7 @@ text-align: left;
 
 /*---Scrollbar------------------------------------------*/
 
-/*---Service-Content------------------------------------------*/
+/*---Skills-Content------------------------------------------*/
 
 .heading
 {
@@ -335,15 +335,15 @@ text-align: left;
 }
 .skills-info p
 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  line-height: 1.7;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.5;
 }
 .skills-info i
 {
   font-size: 8rem;
 }
-/*---Service-Content------------------------------------------*/
+/*---Skills-Content------------------------------------------*/
 
 /*---Project-Content------------------------------------------*/
 
