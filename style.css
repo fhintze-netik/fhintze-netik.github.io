@@ -97,6 +97,14 @@ span
   border: none;
   text-wrap: nowrap;
 }
+.gradient-btn a
+{
+color: black;
+}
+.gradient-btn a:visited
+{
+color: black;
+}
 .gradient-btn:hover{
   transform: scale(1.05);
 }
