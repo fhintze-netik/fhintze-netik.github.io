@@ -384,7 +384,7 @@ text-align: left;
   cursor: pointer;
   box-shadow: 0 0 5px var(--main-color);
   transition: 0.3s ease;
-  height: 650px;
+  height: 750px;
 }
 .project-card:hover
 {
@@ -404,7 +404,7 @@ text-align: left;
 }
 .project-card p
 {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 /*---Project-Content------------------------------------------*/
