@@ -306,7 +306,7 @@ text-align: left;
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
  align-items: center;
- gap: 2.5rem; 
+ gap: 2.5rem;
 }
 .skills-box
 {
@@ -364,6 +364,7 @@ text-align: left;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   place-items: center;
+  justify-content: center;
   gap: 3rem;
   row-gap: 5rem;
 }
@@ -383,7 +384,7 @@ text-align: left;
   cursor: pointer;
   box-shadow: 0 0 5px var(--main-color);
   transition: 0.3s ease;
-  height: 600px;
+  height: 650px;
 }
 .project-card:hover
 {
