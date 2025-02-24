@@ -498,7 +498,8 @@ text-align: left;
     padding: 5rem 2rem;
     overflow: hidden;
     box-shadow: 0 0 5px var(--main-color);
-    height: 750px;
+    height: 700px;
+    margin-top: 10vh;
 }
 .privacy-info{
   display: flex;
