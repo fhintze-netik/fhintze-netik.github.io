@@ -498,7 +498,7 @@ text-align: left;
     padding: 5rem 2rem;
     overflow: hidden;
     box-shadow: 0 0 5px var(--main-color);
-    height: 700px;
+    height: 70vh;
     margin-top: 10vh;
 }
 .privacy-info{
@@ -589,6 +589,13 @@ text-align: left;
   .contact form
   {
     flex-direction: column;
+  }
+  .privacy-box
+  {
+    height: 2600px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
