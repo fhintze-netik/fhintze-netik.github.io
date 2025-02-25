@@ -518,6 +518,43 @@ text-align: left;
 }
 /*---Privacy------------------------------------------*/
 
+/*---Imprint------------------------------------------*/
+
+.imprint-box
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--bg-color);
+    border: 2px solid var(--main-color);
+    border-radius: 3rem;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 5px var(--main-color);
+    height: 70vh;
+    margin-top: 10vh;
+}
+.imprint-info{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.imprint-info h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 5rem;
+}
+.imprint-info p
+{
+  font-size: 3.5rem;
+}
+
+/*---Imprint------------------------------------------*/
+
 /*---Media------------------------------------------*/
 
 @media(max-width:1285px)
@@ -592,11 +629,8 @@ text-align: left;
   }
   .privacy-box
   {
-    height: 2600px;
-    width: 300px;
-    align-items: center;
-    justify-content: center;
+    width: fit-content;
+    height: fit-content;
   }
 }
-
 /*---Media------------------------------------------*/
