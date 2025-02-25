@@ -628,5 +628,11 @@ text-align: left;
   {
     flex-direction: column;
   }
+  .imprint-box
+  {
+    overflow: visible;
+    border: none;
+    box-shadow: none;
+  }
 }
 /*---Media------------------------------------------*/
