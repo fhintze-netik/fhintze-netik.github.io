@@ -46,7 +46,7 @@ body
 }
 .logo
 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--text-color);
   font-weight: 800;
   cursor: pointer;
@@ -68,7 +68,7 @@ span
 }
 .navbar a
 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: var(--text-color);
   margin-left: 4rem;
   font-weight: 500;
