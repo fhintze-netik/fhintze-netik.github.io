@@ -498,8 +498,9 @@ text-align: left;
     padding: 5rem 2rem;
     overflow: hidden;
     box-shadow: 0 0 5px var(--main-color);
-    height: 70vh;
+    height: fit-content;
     margin-top: 10vh;
+    width: fit-content;
 }
 .privacy-info{
   display: flex;
@@ -626,11 +627,6 @@ text-align: left;
   .contact form
   {
     flex-direction: column;
-  }
-  .privacy-box
-  {
-    width: fit-content;
-    height: fit-content;
   }
 }
 /*---Media------------------------------------------*/
